@@ -228,19 +228,18 @@ I think the answer is "both".
 
 ## Existing data sources, laws, best practices, other resources
 
-Overview:
+Overview of laws
 - [State Open Data Laws and Policies](https://www.ncsl.org/technology-and-communication/state-open-data-laws-and-policies#:~:text=Government%20data%20is%20%E2%80%9Copen%E2%80%9D%20when%20it%20is%20published,that%20are%20documented%2C%20widely%20used%20and%20publicly%20available.)
 - [Open Government Guide for reporters](https://www.rcfp.org/open-government-guide/new-hampshire/)
 - [State Open Data Tracker](https://www.bsa.org/files/policy-filings/09232020stateopendatatracker.pdf)
 
-Federal
+Data formats
 - [US House of Reps docs in XML format](https://xml.house.gov/)
   - definition of the [USLM-1.0.xsd](https://xml.house.gov/schemas/uslm/1.0/USLM-1.0.xsd) schema
   - [users guide](https://xml.house.gov/schemas/uslm/1.0/USLM-User-Guide.pdf) for the same
-- [data.gov](https://data.gov/dataset) -  data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. 301,393 datasets available.  Various data sources available in various formats (CSV, RDF, JSON, XML, HTML, XLS)
 
-NH
-- [NH 2011 HB 418](https://www.gencourt.state.nh.us/legislation/2011/HB0418.html) - did this ever become law?  I can't find it in [gencourt bill search](https://gencourt.state.nh.us/bill_status/legacy/bs2016/)
+NH open data
+- [NH 2011 HB 418](https://www.gencourt.state.nh.us/legislation/2011/HB0418.html) - did this ever become law?  I can't find it in [gencourt bill search](https://gencourt.state.nh.us/bill_status/legacy/bs2016/).  Someone said it was pushed in 2010, held over to 2011, then was ITL [ inexpedient to legislate ; i.e. killed ].
 - [NH Open Data Sets](https://www.nh.gov/doit/open-source/data-sets.htm) - N.B. URL is broken and redirects
 
 List of data sets that might exist / might be of interest
@@ -250,6 +249,35 @@ Tools
 - [Citizen Portal](https://citizenportal.ai/newhome) - an AI tool for scraping(?) and composing(?) published data
 - [usaspending.gov](https://www.usaspending.gov/) - the official open data source of federal spending information,
 including information about federal awards such as contracts, grants, and loans.
+- [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
+- [data.gov](https://data.gov/dataset) -  data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. 301,393 datasets available.  Various data sources available in various formats (CSV, RDF, JSON, XML, HTML, XLS)
+
+- one very nice example of an useful API endpoint [weather.gov](https://www.weather.gov/documentation/services-web-api)
+
+## What data do we want to ask for first?
+
+Crowsourced on Signal 2024 Nov 9:
+
+- EZ pass road usage data.  Each collection point by hour and day.
+- 91-A requests - how many such requests, duration until response, how much do they cost, did the gov body extend the deadline, did they fight it?
+- maybe a survey committee or bill, asking every gov department to report on what data sets it already has?
+
+Criteria:
+
+we want to avoid asking for datasets that
+1. provides an excuse for gov spending (both bc we don't want more gov spending, and bc we don't want a price tag to kill the bill)
+1. sounds like it might be privacy-infringing (even if it isn't)
+1. ... ?
+
+We want to prioritize asking for datasets that hit one or more of the following criteria:
+1. are low hanging fruit with existing data (road usage data?)
+1. have broad citizen interest (Tax/Spending related ?)
+1. have narrow but passionate interest (DCYF ?)
+1. provide some strategic advantage (91a ?)
+
+
+Candidates:
+1. better version of [this](https://my.doe.nh.gov/iPlatform/Report/ViewReportPage/?reportPath=%2FBDMQ%2FiPlatform%20Reports%2FPerformance%20Data%2FAttendance%2FAttendance%20Rate%20By%20District&page=0&ReportID=29&ReportViewerEnablePaging=True&SchoolYear=2023&ReportViewerEnablePaging=True)?  So the bill would be: Provide existing data in iplatform in a csv/xml/json file available as a link on the existing platform. Or something like that.
 
 # Legislative Approach
 
