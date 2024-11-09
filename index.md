@@ -237,6 +237,7 @@ Federal
 - [US House of Reps docs in XML format](https://xml.house.gov/)
   - definition of the [USLM-1.0.xsd](https://xml.house.gov/schemas/uslm/1.0/USLM-1.0.xsd) schema
   - [users guide](https://xml.house.gov/schemas/uslm/1.0/USLM-User-Guide.pdf) for the same
+- [data.gov](https://data.gov/dataset) -  data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. 301,393 datasets available.  Various data sources available in various formats (CSV, RDF, JSON, XML, HTML, XLS)
 
 NH
 - [NH 2011 HB 418](https://www.gencourt.state.nh.us/legislation/2011/HB0418.html) - did this ever become law?  I can't find it in [gencourt bill search](https://gencourt.state.nh.us/bill_status/legacy/bs2016/)
@@ -245,6 +246,10 @@ NH
 List of data sets that might exist / might be of interest
 - The National Incident-Based Reporting System (NIBRS) - do NH towns already collect / format this?  What's the data format?
 
+Tools
+- [Citizen Portal](https://citizenportal.ai/newhome) - an AI tool for scraping(?) and composing(?) published data
+- [usaspending.gov](https://www.usaspending.gov/) - the official open data source of federal spending information,
+including information about federal awards such as contracts, grants, and loans.
 
 # Legislative Approach
 
