@@ -1,0 +1,27 @@
+# Site settings
+title: Open Government Data Initiative
+author: Travis Corcoran
+email: travis4nh@tjic.com
+description: "An initiative to get government to proactively, not reactively, publish internal data so that citizens and non-profits can build a variety of dashboards allowing the people to understand what the government is doing."
+site.github: https://github.com/travis4nh/open-gov-data-init
+
+
+# Theme
+theme: jekyll-theme-cayman
+
+
+# Jekyll settings
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
+# Publishing source
+publishing_source: main
