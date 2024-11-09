@@ -1,4 +1,6 @@
-# TLDR
+# The Open Goverment Data Initiative
+
+*Let a thousand real time dashboards bloom!*
 
 The Open Goverment Data Initiative advocates for laws that force government to proactively publish data in machine-readable formats.
 
@@ -10,16 +12,30 @@ It does not advocate for government-provided _tools_ to view or read data; it ad
 
 Finally, OGDI is based in New Hampshire and advocates first and foremost for state-level laws, but we support activists in other states and look forward to sharing model legislation and discussing best practices.
 
+# Who we are
+
+A small loose collection of interested citizens working with [Travis Corcoran](https://gencourt.state.nh.us/house/members/member.aspx?pid=10666).
+
 # The problem
 
-At the federal level we have FOIA (the Freedom of Information Act).
+["Right to know"](https://en.wikipedia.org/wiki/Right_to_know) is
 
-At the state level in New Hampshire we have RSA 91-a (a "right to know" law).
+>  the right for people to "participate in an informed way in decisions
+>  that affect them, while also holding governments and others
+>  accountable".  It pursues universal access to information as
+>  essential foundation of inclusive knowledge societies.
+
+At the federal level we have [FOIA](https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)) (the Freedom of Information Act).
+
+In New Hampshire we have [RSA 91-a](https://www.governor.nh.gov/sites/g/files/ehbemt336/files/documents/20200619-91-a-meetings-presentation.pdf).
+
+These are better than nothing, but inadequate.
 
 Both of these require:
 1. that a citizen know what information they want
 1. that a citizen send in a request to the government
 1. that the citizen wait for the government (often there's a 'deadline', but (a) there are no penalties when the government breaks the deadline, (b) the deadline can be satisfied by the government merely replying by the specified date "this may take up to three years").
+1. that the citizen pay for reproduction costs
 
 Further, the data
 1. does not come back in a machine-readable format
@@ -43,19 +59,21 @@ This has been state-of-the-art in the private sector for almost 30 years.
 Now compare this to even a small responsive state like New Hampshire, where almost no data is proactively published, and what is published is
 
 - not machine readable
-- often out of data
+- often out of date
 
-For examples of both problems, look at the NH Department of Education data for (Weare's high school)[https://my.doe.nh.gov/profiles/profile.aspx?d=275&year=2017], which hasn't been updated in over seven years, and which is presented in crappy HTML format.
+For an example of both problems, look at the NH Department of Education data for [Weare, NH's high school](https://my.doe.nh.gov/profiles/profile.aspx?d=275&year=2017).  The most recent data is seven years old, and is presented in crappy HTML format.
 
 # What sort of data do we want to see?
 
 All of it!
 
+Let's reframe that.  What data do _you_ want to see?
+
 Pick the issue that you care about:
 
 ## Children
 
-- How many families did DCYF investigate last year?
+- How many families did [DCYF](https://www.dhhs.nh.gov/programs-services/child-protection-juvenile-justice) investigate last year?
 - How many children were taken into state custody?
 - How many of those children were placed in foster homes within one week?
 - ...within two weeks?
@@ -127,6 +145,26 @@ veterans.  Whatever it is that citizens care about, governments and
 non-profits operating under government regulation almost certainly
 already collect the data, and just aren't sharing it effectively.
 
+# What does getting this data achieve?
+
+Government, like death, is an unfortunate fact of life.
+
+If government exists, though, it is in our interest that it do the most good (or least harm) possible, for the lowest cost.
+
+There is an [efficient frontier](https://en.wikipedia.org/wiki/Efficient_frontier) in all things.  We can have a government that spends $0 and prevents zero cases of a given bad thing.  Or we can have a government that spends $1 million and prevents 10 cases of that bad thing.  Both are defensible policies.
+
+...but what's indefensible is a government that spends $1 million and prevents 5, or 4, or 0 cases.
+
+Activists of all stripes believe that government is inefficient, wasteful, and focused on the wrong problems.
+
+The problem is that, without access to data, their appeals are emotional and anecdotal, instead of evidence based.
+
+...and further,
+
+> "When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarely, in your thoughts advanced to the stage of science."
+>
+> ― Lord Kelvin
+
 # The Solution: Open Data
 
 Before we can craft legislation that forces government to share data, we have to consider exactly what it is we're looking for (Remember the old adage: "be careful what you wish for"). 
@@ -188,11 +226,34 @@ would we rather get massive data dumps?
 
 I think the answer is "both".
 
-# Legislative Approach: legislation -> data -> evangelism -> legislation -> ...
+## Existing data sources, laws, best practices, other resources
 
-I have submitted bills over my first two-year term.  None got beyond
-the committee stage.  I am optimistic that we can do better in the
-future.
+Overview:
+- [State Open Data Laws and Policies](https://www.ncsl.org/technology-and-communication/state-open-data-laws-and-policies#:~:text=Government%20data%20is%20%E2%80%9Copen%E2%80%9D%20when%20it%20is%20published,that%20are%20documented%2C%20widely%20used%20and%20publicly%20available.)
+- [Open Government Guide for reporters](https://www.rcfp.org/open-government-guide/new-hampshire/)
+- [State Open Data Tracker](https://www.bsa.org/files/policy-filings/09232020stateopendatatracker.pdf)
+
+Federal
+- [US House of Reps docs in XML format](https://xml.house.gov/)
+  - definition of the [USLM-1.0.xsd](https://xml.house.gov/schemas/uslm/1.0/USLM-1.0.xsd) schema
+  - [users guide](https://xml.house.gov/schemas/uslm/1.0/USLM-User-Guide.pdf) for the same
+
+NH
+- [NH 2011 HB 418](https://www.gencourt.state.nh.us/legislation/2011/HB0418.html) - did this ever become law?  I can't find it in [gencourt bill search](https://gencourt.state.nh.us/bill_status/legacy/bs2016/)
+- [NH Open Data Sets](https://www.nh.gov/doit/open-source/data-sets.htm) - N.B. URL is broken and redirects
+
+List of data sets that might exist / might be of interest
+- The National Incident-Based Reporting System (NIBRS) - do NH towns already collect / format this?  What's the data format?
+
+
+# Legislative Approach
+
+**legislation -> data -> evangelism -> legislation -> ...**
+
+I have submitted bills over my first two-year term (2023-2024).  None
+got beyond the committee stage.
+
+I am optimistic that we can do better in the future.
 
 I intend to submit one or more bills this term, but I see whatever bills we craft as the start of a long salami slicing
 tactic - we get one bill through this year, ideally, perhaps one that forces
@@ -215,21 +276,42 @@ several times to download files, etc.)  The point of this exercise is
 to create both a community ("evangelization") and also an ecosystem of
 tools.
 
-### Goals over time
+## Goals over time
+
+### Near term
 
 The near term goal is to get some data, any data, in New Hampshire
-available.
+available, as a camel nose under the tent.
 
-The medium term goal is to get a lot more data available in New
-Hampshire, and to start using it for effective liberty activism.
-Additionally, the Open Goverment Data Initiative can serve as a
+If we could get bipartisan support (exposing some data that speaks to left-of-center concerns), that would be great.
+
+### Medium term
+
+The medium term goal is
+
+- get a lot more data available in New Hampshire
+- start using it for effective liberty activism (e.g.
+- start to build tools to show what's possible.
+
+the Open Goverment Data Initiative can serve as a
 catalog of data analysis tools / streams.  One can imagine a complete
 ecosystem where government data sources exist on the web, and certain
 analysis tools operate on them as streams / filters / webapps.
 Perhaps one activist writes a tool that takes in the full state budget and produces a much simpler, easy to digest 
 
-The long term goal is to spread the idea to other states, complete with
-model legislation.
+### Long term
+
+The long term goal is to spread the idea to other states. One tool to do this is to publish
+model legislation, and reach out to activists in other states via national level groups.
+
+Once the idea spreads, we can imagine an ecosystem of tools that
+processes and displays data from multiple states.  We should have
+dashboards that show the mean, best, and worst NH towns on
+dollars-spent-per-student-achievement, and compare that with data from
+Vermont and Maine.  We should have dashboards that find
+demographically similar "peer" towns in various states and compare
+their total spending.  We should have dashboards that compare policing
+effectiveness across towns and states.
 
 
 # Allied groups
@@ -241,7 +323,7 @@ and asking them for introductions to like-minded legislators.
 The presence of a group on this list is not indicative of their endorsement!
 
 - [Americans For Prosperity](https://americansforprosperity.org)
-  - [AFP NH][https://nh.americansforprosperity.org/)
+  - [AFP NH](https://nh.americansforprosperity.org/)
 - [New Hampshire Liberty Alliance](https://www.nhliberty.org)
 
 
@@ -274,10 +356,16 @@ I'd love to hear your thoughts on any/all of this!
 
 Next steps:
 
-- join our Signal group.  https://signal.group/#CjQKIK73olErwV7kLGcTLL3Fvy5dW1TYfokyWXoXwChZXj6QEhA4TIgLCzKlCEO4NcXydx4O
+- join our [Signal group](https://signal.group/#CjQKIK73olErwV7kLGcTLL3Fvy5dW1TYfokyWXoXwChZXj6QEhA4TIgLCzKlCEO4NcXydx4O)
 - view the [github repo](https://github.com/travis4nh/open-gov-data-init) that holds this document
 - clone the repo, make changes, add documents, etc. and create a PR.  I'll merge as appropriate.
 - submit a [ticket](https://github.com/Travis4nh/open-gov-data-init/issues) to the repo with ideas
+- follow [Travis on twitter](https://x.com/travis4nh)
+- if you're a legislator in NH, reach out to me via twitter DM or [email](tjic2020@gmail.com) to talk about cosponsoring legislation
 
 
+# Historical / Log
 
+- 2024 Nov 9 - first draft of the The Open Goverment Data Initiative manifesto (this document)
+- [2024 NH HB 1436 - relative to requiring institutions of higher education to maintain certain statistical information on their website](https://gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1655&inflect=2)
+- [2023 NH HB 551 -  relative to department of children, youth, and families tracking and publishing statistics.](https://gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?id=595)
