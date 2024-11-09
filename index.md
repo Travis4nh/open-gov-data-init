@@ -1,8 +1,8 @@
-# The Open Goverment Data Initiative
+# The Open Government Data Initiative
 
 *Let a thousand real time dashboards bloom!*
 
-The Open Goverment Data Initiative advocates for laws that force government to proactively publish data in machine-readable formats.
+The Open Government Data Initiative advocates for laws that force government to proactively publish data in machine-readable formats.
 
 It is non-partisan ; we support exposing _all_ data, whether that might support the policies of the left, the right, both, or neither.
 
@@ -41,7 +41,7 @@ Further, the data
 1. does not come back in a machine-readable format
 1. is published, at most, once, and not repeatedly (e.g. annually, quarterly, weekly...)
 
-Contrast this to the private sector where every 1-person ecommerce business, or 4-hour-per-week software side project has a [dashboard](https://en.wikipedia.org/wiki/Dashboard_(computing)).
+Contrast this to the private sector where every 1-person e-commerce business, or 4-hour-per-week software side project has a [dashboard](https://en.wikipedia.org/wiki/Dashboard_(computing)).
 
 A typical 1-person project has a dashboard that displays in real-time (update cycle of < 1 second) and shows things like
 - number of site visitors
@@ -100,7 +100,7 @@ and further: how does NH DCYF's numbers compare to, say, Vermont's ?  or Maine's
 - Are we sending more or fewer drunk drivers to jail now vs then?
 - Are conviction rates heading up or down?
 - ...out of how many drivers, and driver-miles (we want to be able to scale statistics appropriately, not have them be swamped by secular trends / exogenous events)?
-- How many robberies were reportyed in Hillsborough county last year?
+- How many robberies were reported in Hillsborough county last year?
 - ...how does that compare, per capita, to the same county five years ago?  To Strafford county this year?
 - How do robberies correlate with population density?  With demographics like age of the perpetrator?
 
@@ -161,7 +161,7 @@ The problem is that, without access to data, their appeals are emotional and ane
 
 ...and further,
 
-> "When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarely, in your thoughts advanced to the stage of science."
+> "When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarcely, in your thoughts advanced to the stage of science."
 >
 > ― Lord Kelvin
 
@@ -177,7 +177,7 @@ Different citizens and groups will have different interests.
 - another group might argue that high density urban areas are getting shortchanged in policing, and might pull for a different set of sources, and generate graphs to show policing results as compared with population density.
 - etc.
 
-Each citizen group should be encourged to build tools that do the analysis and reporting that they care about.
+Each citizen group should be encouraged to build tools that do the analysis and reporting that they care about.
 
 Again, the OGDI believes in [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy): small tools, loosely coupled.  Make the [government provide the data and the free market will do the rest](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)! )
 
@@ -187,18 +187,18 @@ To support this low-effort modular approach to data import and digestion, we nee
 
 Data formats vary from human readable (a JPG of a graph, or a PDF file of a budget) to the machine readable.
 
-Machine readable data formats vary from the opaque (a binary file, or a spreadsheet with zero column headings) to the more transparent (a CVS file with column headers, or an XML file with a [DTD (Document Type Definition)[https://en.wikipedia.org/wiki/Document_type_definition).
+Machine readable data formats vary from the opaque (a binary file, or a spreadsheet with zero column headings) to somewhat transparent (a spreadsheet in proprietary Microsoft Excel format), to the very transparent (a CSV file with column headers, or an XML file with a [DTD (Document Type Definition)](https://en.wikipedia.org/wiki/Document_type_definition).
 
 Data varies from the easily comprehensible overviews( the list of [NH town tax rates](https://www.revenue.nh.gov/sites/g/files/ehbemt736/files/documents/2023-tax-rate-comparison.xlsx)), to the complete (the full [1,284 pages of the New Hampshire 2023 budget](https://www.das.nh.gov/budget/Budget2024-2025/GovernorsBudgetBill.pdf#06-56) ).
 
 There is a tension between the desire to get every scrap of data that's available, on the one hand, and drowning users in minutia that may make it effectively impossible to make use of the data (can you look at the almost 1,300 page budget and - even using search in the PDF, find how much money goes to road building and maintenance?).
 
-Additionally, there is the issue of ..
+Additionally, there is the issue of ...
 
 ## Data format consistency over time
 
 I recently did a small project importing NHLA spreadsheet data going
-back ~10 years into a Rails app, and because I could export it as CSV,
+back ~10 years into a Rails app, and because I could export each sheet as CSV,
 it was trivial to import ... but even then, column headers changed
 from year to year, and I ended up doing a lot of special casing to,
 e.g., pull out canonical names which appear in 3 or 4 different
@@ -210,7 +210,7 @@ You can imagine the challenges in trying to parse out the DCYF
 component of the state budget over 20 years, especially as divisions
 get renamed, programs come and go, etc.
 
-So we'd like data that is easy to compare across time (especially given that one bureacratic trick is to change measurements college, or change the definition of terms over time, to intentionally thwart measurability).  This pushes us in the direction of wanting to carefully specify, in legislation, exactly what must be provided.
+So we'd like data that is easy to compare across time (especially given that one bureaucratic trick is to change measurements college, or change the definition of terms over time, to intentionally thwart measurability).  This pushes us in the direction of wanting to carefully specify, in legislation, exactly what must be provided.
 
 ...however, this is all in tension with the ideal of ...
 
@@ -293,7 +293,7 @@ The medium term goal is
 - start using it for effective liberty activism (e.g.
 - start to build tools to show what's possible.
 
-the Open Goverment Data Initiative can serve as a
+the Open Government Data Initiative can serve as a
 catalog of data analysis tools / streams.  One can imagine a complete
 ecosystem where government data sources exist on the web, and certain
 analysis tools operate on them as streams / filters / webapps.
@@ -366,6 +366,6 @@ Next steps:
 
 # Historical / Log
 
-- 2024 Nov 9 - first draft of the The Open Goverment Data Initiative manifesto (this document)
+- 2024 Nov 9 - first draft of the The Open Government Data Initiative manifesto (this document)
 - [2024 NH HB 1436 - relative to requiring institutions of higher education to maintain certain statistical information on their website](https://gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1655&inflect=2)
 - [2023 NH HB 551 -  relative to department of children, youth, and families tracking and publishing statistics.](https://gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?id=595)
