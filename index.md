@@ -250,13 +250,14 @@ NH open data
 List of data sets that might exist / might be of interest
 - The National Incident-Based Reporting System (NIBRS) - do NH towns already collect / format this?  What's the data format?
 
-Tools
+Tools / existing data sources
 - [Citizen Portal](https://citizenportal.ai/newhome) - an AI tool for scraping(?) and composing(?) published data
 - [usaspending.gov](https://www.usaspending.gov/) - the official open data source of federal spending information,
 including information about federal awards such as contracts, grants, and loans.
 - [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
 - [data.gov](https://data.gov/dataset) -  data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. 301,393 datasets available.  Various data sources available in various formats (CSV, RDF, JSON, XML, HTML, XLS)
 - [Florida open government](https://flgov.com/eog/info-center/open-government)
+- [Connecticut Open Data](https://data.ct.gov/)
 
 - one very nice example of an useful API endpoint [weather.gov](https://www.weather.gov/documentation/services-web-api)
 
