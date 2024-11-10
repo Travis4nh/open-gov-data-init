@@ -214,7 +214,7 @@ You can imagine the challenges in trying to parse out the DCYF
 component of the state budget over 20 years, especially as divisions
 get renamed, programs come and go, etc.
 
-So we'd like data that is easy to compare across time (especially given that one bureaucratic trick is to change measurements college, or change the definition of terms over time, to intentionally thwart measurability).  This pushes us in the direction of wanting to carefully specify, in legislation, exactly what must be provided.
+So we'd like data that is easy to compare across time (especially given that one bureaucratic trick is to change measurements, or change the definition of terms over time, to intentionally thwart measurability).  This pushes us in the direction of wanting to carefully specify, in legislation, exactly what must be provided.
 
 ...however, this is all in tension with the ideal of ...
 
