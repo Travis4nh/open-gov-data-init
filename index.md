@@ -258,8 +258,8 @@ including information about federal awards such as contracts, grants, and loans.
 - [data.gov](https://data.gov/dataset) -  data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. 301,393 datasets available.  Various data sources available in various formats (CSV, RDF, JSON, XML, HTML, XLS)
 - [Florida open government](https://flgov.com/eog/info-center/open-government)
 - [Connecticut Open Data](https://data.ct.gov/)
-
-- one very nice example of an useful API endpoint [weather.gov](https://www.weather.gov/documentation/services-web-api)
+- [FRED - Federal Reserve Economic Data](https://fred.stlouisfed.org/)
+- [weather.gov with an API endpoint](https://www.weather.gov/documentation/services-web-api)
 
 
 # Legislative Approach
