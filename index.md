@@ -342,7 +342,6 @@ The presence of a group on this list is not indicative of their endorsement!
 - [New Hampshire Liberty Alliance](https://www.nhliberty.org)
 
 
-
 # How you can help
 
 I'd love to hear your thoughts on any/all of this!
