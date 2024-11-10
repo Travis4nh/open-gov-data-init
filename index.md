@@ -1,3 +1,7 @@
+---
+layout: default
+title: The Open Government Data Initiative
+---
 # The Open Government Data Initiative
 
 *Let a thousand real time dashboards bloom!*
