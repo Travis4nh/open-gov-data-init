@@ -255,6 +255,7 @@ Tools
 including information about federal awards such as contracts, grants, and loans.
 - [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
 - [data.gov](https://data.gov/dataset) -  data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more. 301,393 datasets available.  Various data sources available in various formats (CSV, RDF, JSON, XML, HTML, XLS)
+- [Florida open government](https://flgov.com/eog/info-center/open-government)
 
 - one very nice example of an useful API endpoint [weather.gov](https://www.weather.gov/documentation/services-web-api)
 
