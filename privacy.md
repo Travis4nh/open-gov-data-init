@@ -3,6 +3,8 @@ layout: tjic
 title: Privacy
 ---
 
+# Privacy
+
 The Open Government Data Initiative respects citizen privacy.
 
 

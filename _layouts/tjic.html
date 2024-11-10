@@ -16,14 +16,15 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{  site.description }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
         <a href="./index.html" class="btn {% if page.name=='index.md' %}btn-selected{% endif %}">manifesto</a>
         <a href="./next_steps.html" class="btn {% if page.name=='next_steps.md' %}btn-selected{% endif %}">next steps</a>
 		<a href="./nh_data_sources.html" class="btn {% if page.name=='nh_data_sources.md' %}btn-selected{% endif %}">NH data sources </a>
+		<a href="./long_term_vision.html" class="btn {% if page.name=='long_term.md' %}btn-selected{% endif %}">long term</a>
 		<a href="./data_tools.html" class="btn {% if page.name=='data_tools.md' %}btn-selected{% endif %}">data tools</a>
 		<a href="./privacy.html" class="btn {% if page.name=='privacy.md' %}btn-selected{% endif %}">privacy</a>
 		<a href="./2025_bill.html" class="btn {% if page.name=='2025_bill.md' %}btn-selected{% endif %}">2025 bill</a>

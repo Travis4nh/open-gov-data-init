@@ -1,6 +1,7 @@
 ---
 layout: tjic
 title: The Open Government Data Initiative
+description: Manifesto
 ---
 # The Open Government Data Initiative
 
