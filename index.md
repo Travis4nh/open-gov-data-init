@@ -260,7 +260,7 @@ including information about federal awards such as contracts, grants, and loans.
 - [Connecticut Open Data](https://data.ct.gov/)
 - [FRED - Federal Reserve Economic Data](https://fred.stlouisfed.org/)
 - [weather.gov with an API endpoint](https://www.weather.gov/documentation/services-web-api)
-
+- [NYC open gov data](https://opendata.cityofnewyork.us/open-data-law/)
 
 # Legislative Approach
 
